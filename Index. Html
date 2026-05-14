@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advocate Sumit Birthday ❤️⚖️</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+height:100vh;
+overflow:hidden;
+background:linear-gradient(135deg,#ff4da6,#ff85c2,#ffc0cb);
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+position:relative;
+}
+
+.page{
+display:none;
+width:90%;
+max-width:750px;
+padding:40px;
+border-radius:30px;
+text-align:center;
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(15px);
+box-shadow:0 0 35px rgba(255,255,255,0.4);
+animation:fade 1s ease;
+}
+
+.active{
+display:block;
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:scale(0.9);
+}
+to{
+opacity:1;
+transform:scale(1);
+}
+}
+
+h1{
+font-size:3rem;
+margin-bottom:15px;
+text-shadow:0 0 15px white;
+}
+
+h2{
+margin-top:20px;
+color:#fff5f8;
+}
+
+p{
+margin-top:18px;
+font-size:1.15rem;
+line-height:1.8;
+}
+
+.btn{
+margin-top:30px;
+padding:14px 28px;
+border:none;
+border-radius:50px;
+font-size:1rem;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+.yes{
+background:white;
+color:#ff1493;
+}
+
+.yes:hover{
+transform:scale(1.1);
+box-shadow:0 0 20px white;
+}
+
+.no{
+background:#ffb6d9;
+color:white;
+cursor:not-allowed;
+opacity:0.5;
+}
+
+.heart{
+position:absolute;
+bottom:-10px;
+font-size:25px;
+animation:float 6s linear infinite;
+opacity:0.7;
+}
+
+@keyframes float{
+0%{
+transform:translateY(0);
+opacity:0;
+}
+100%{
+transform:translateY(-110vh);
+opacity:1;
+}
+}
+
+.glitter{
+position:absolute;
+width:5px;
+height:5px;
+background:white;
+border-radius:50%;
+animation:sparkle 2s infinite;
+}
+
+@keyframes sparkle{
+0%{
+opacity:0;
+transform:scale(0);
+}
+50%{
+opacity:1;
+transform:scale(1);
+}
+100%{
+opacity:0;
+transform:scale(0);
+}
+}
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div class="page active" id="page1">
+
+<h1>🎂 Happy Birthday 🎂</h1>
+
+<h2>Advocate Sumit ⚖️❤️</h2>
+
+<p>
+Happy Birthday to the only advocate who can easily win arguments…
+and my attention too 😌⚖️❤️
+</p>
+
+<p>
+To my favorite advocate —
+if charm was a court case,
+you’d win every single hearing without evidence 😌⚖️
+</p>
+
+<p>
+“You defend clients in court…
+but who’s going to defend me from your smile?” 😌⚖️❤️
+</p>
+
+<p>
+“Objection your honor…
+he’s illegally attractive 🫣⚖️”
+</p>
+
+<button class="btn yes" onclick="nextPage(2)">
+Open Your Birthday Case File
